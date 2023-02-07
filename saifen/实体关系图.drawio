@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-04T08:40:15.048Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cyjs31QWQgm7_8CIAYE_" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-07T13:26:48.282Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hDNRmlSbOkMV2POEskJi" version="20.8.16" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1900" dy="1689" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="1805" dy="1635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -628,429 +628,484 @@
         <mxCell id="8205c8ACsqdkFzfDeMij-146" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="8205c8ACsqdkFzfDeMij-8" target="8205c8ACsqdkFzfDeMij-113" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-1" value="match  （赛事表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-1" value="match  （赛事表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="1115" width="470" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="3H250dNHOKXCnX0dtJ4z-1" vertex="1">
           <mxGeometry y="30" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-2">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-2" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-4" value="match_id  character(50) 赛事 id NOT NULL   " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-2">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-4" value="match_id  character(50) 赛事 id NOT NULL   " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-2" vertex="1">
           <mxGeometry x="30" width="440" height="30" as="geometry">
             <mxRectangle width="440" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-14" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-1" vertex="1">
           <mxGeometry y="60" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-14">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-15" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-14" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-16" value="match_type smallint  赛事类型 0 全国赛事， 1 高校赛事，2 其他赛事 NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-14">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-16" value="match_type smallint  赛事类型 0 全国赛事， 1 高校赛事，2 其他赛事 NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-14" vertex="1">
           <mxGeometry x="30" width="440" height="30" as="geometry">
             <mxRectangle width="440" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-1" vertex="1">
           <mxGeometry y="90" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-5">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-5" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-7" value="match_name character(120)  赛事名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-5">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-7" value="match_name character(120)  赛事名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-5" vertex="1">
           <mxGeometry x="30" width="440" height="30" as="geometry">
             <mxRectangle width="440" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-17" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-1" vertex="1">
           <mxGeometry y="120" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-18" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-17">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-18" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-17" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-19" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-17">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-19" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-17" vertex="1">
           <mxGeometry x="30" width="440" height="30" as="geometry">
             <mxRectangle width="440" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-1" vertex="1">
           <mxGeometry y="150" width="470" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-11">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-11" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-13" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-11">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-13" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-11" vertex="1">
           <mxGeometry x="30" width="440" height="30" as="geometry">
             <mxRectangle width="440" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-21" value="match_info （赛事信息表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-21" value="match_info （赛事信息表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="1250" y="1050" width="435" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-22" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="30" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-23" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-22">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-23" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-22" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-24" value="match_id character(50) 赛事 id NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-22">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-24" value="match_id character(50) 赛事 id NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-22" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-25" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="60" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-26" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-25">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-26" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-25" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-27" value="status smallint 赛事状态 0 关闭  -1 报名  1 比赛进行中" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-25">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-27" value="status smallint 赛事状态 0 关闭  1 报名  2  比赛进行中" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-25" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-28" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="90" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-29" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-28">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-29" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-28" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-30" value="bigimage  character(60) 赛事展示大图" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-28">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-30" value="bigimage  character(60) 赛事展示大图" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-28" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-49" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="120" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-50" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-49">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-50" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-49" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-51" value="match_introduction text  赛事简介" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-49">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-51" value="match_introduction text  赛事简介" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-49" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="150" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-32" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-31">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-32" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-31" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-33" value="enroll_init  bigint 报名开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-31">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-33" value="enroll_init  bigint 报名开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-31" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-34" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="180" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-35" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-34">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-35" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-34" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-36" value="enroll_end  bigint 报名结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-34">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-36" value="enroll_end  bigint 报名结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-34" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-37" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="210" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-38" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-37">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-38" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-37" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-39" value="march_start  bigint 比赛开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-37">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-39" value="march_start  bigint 比赛开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-37" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-40" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="240" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-41" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-40">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-41" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-40" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-42" value="march_end  bigint 比赛结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-40">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-42" value="march_end  bigint 比赛结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-40" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-43" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="270" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-44" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-43">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-44" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-43" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-45" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-43">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-45" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-43" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-21">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-46" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-21" vertex="1">
           <mxGeometry y="300" width="435" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-47" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-46">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-47" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-46" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-48" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-46">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-48" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-46" vertex="1">
           <mxGeometry x="30" width="405" height="30" as="geometry">
             <mxRectangle width="405" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-52" value="match_info_view （赛事信息视图）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-52" value="match_info_view （赛事信息视图）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="1450" width="510" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-53" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="30" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-54" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-53">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-54" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-53" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-55" value="match_id character(50) 赛事 id " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-53">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-55" value="match_id character(50) 赛事 id " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-53" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-56" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="60" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-57" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-56">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-57" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-56" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-58" value="match_type smallint  赛事类型 0 全国赛事， 1 高校赛事，2 其他赛事 NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-56">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-58" value="match_type smallint  赛事类型 0 全国赛事， 1 高校赛事，2 其他赛事 NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-56" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-59" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="90" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-60" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-59">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-60" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-59" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-61" value="match_name character(120)  赛事名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-59">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-61" value="match_name character(120)  赛事名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-59" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-62" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="120" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-63" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-62">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-63" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-62" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-64" value="match_introduction text  赛事简介" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-62">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-64" value="match_introduction text  赛事简介" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-62" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-65" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="150" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-66" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-65">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-66" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-65" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-67" value="bigimage  character(60) 赛事展示大图" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-65">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-67" value="bigimage  character(60) 赛事展示大图" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-65" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-80" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="180" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-81" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-80">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-81" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-80" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-82" value="status smallint 赛事状态 0 关闭  -1 报名  1 比赛进行中" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-80">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-82" value="status smallint 赛事状态 0 关闭  1 报名  2 比赛进行中" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-80" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-68" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="210" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-69" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-68">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-69" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-68" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-70" value="enroll_init  bigint 报名开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-68">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-70" value="enroll_init  bigint 报名开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-68" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-77" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="240" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-78" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-77">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-78" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-77" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-79" value="enroll_end  bigint 报名结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-77">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-79" value="enroll_end  bigint 报名结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-77" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-74" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-74" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="270" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-75" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-74">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-75" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-74" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-76" value="march_start  bigint 比赛开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-74">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-76" value="march_start  bigint 比赛开始时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-74" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-71" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="300" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-72" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-71">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-72" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-71" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-73" value="march_end  bigint 比赛结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-71">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-73" value="march_end  bigint 比赛结束时间" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-71" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-83" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="330" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-84" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-83">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-84" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-83" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-85" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-83">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-85" value="update_name char(16) （更新人）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-83" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-86" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-86" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-52" vertex="1">
           <mxGeometry y="360" width="510" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-87" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-86">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-87" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-86" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-88" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-86">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-88" value="update_time bigint （更新时间）NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-86" vertex="1">
           <mxGeometry x="30" width="480" height="30" as="geometry">
             <mxRectangle width="480" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="3H250dNHOKXCnX0dtJ4z-2" target="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" parent="1" source="3H250dNHOKXCnX0dtJ4z-2" target="3H250dNHOKXCnX0dtJ4z-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3H250dNHOKXCnX0dtJ4z-22" target="3H250dNHOKXCnX0dtJ4z-52">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-94" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="3H250dNHOKXCnX0dtJ4z-22" target="3H250dNHOKXCnX0dtJ4z-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-95" value="nation_match （全国赛事表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-95" value="nation_match （全国赛事表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="-330" y="1130" width="490" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-95">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-96" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" parent="3H250dNHOKXCnX0dtJ4z-95" vertex="1">
           <mxGeometry y="30" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-97" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-96">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-97" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-96" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-98" value="nation_match_id character(50) 赛事id NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-96">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-98" value="nation_match_id character(50) 赛事id NOT NULL" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-96" vertex="1">
           <mxGeometry x="30" width="460" height="30" as="geometry">
             <mxRectangle width="460" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-95">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-99" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-95" vertex="1">
           <mxGeometry y="60" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-100" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-99">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-100" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-99" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-101" value="area_code " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-99">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-101" value="area_code " style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-99" vertex="1">
           <mxGeometry x="30" width="460" height="30" as="geometry">
             <mxRectangle width="460" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-95">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-102" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-95" vertex="1">
           <mxGeometry y="90" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-103" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-102">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-103" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-102" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-104" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-102">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-104" value="Row 2" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-102" vertex="1">
           <mxGeometry x="30" width="460" height="30" as="geometry">
             <mxRectangle width="460" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-95">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-105" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="3H250dNHOKXCnX0dtJ4z-95" vertex="1">
           <mxGeometry y="120" width="490" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-106" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-105">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-106" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-105" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-107" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="3H250dNHOKXCnX0dtJ4z-105">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-107" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" parent="3H250dNHOKXCnX0dtJ4z-105" vertex="1">
           <mxGeometry x="30" width="460" height="30" as="geometry">
             <mxRectangle width="460" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="3H250dNHOKXCnX0dtJ4z-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="3H250dNHOKXCnX0dtJ4z-2" target="3H250dNHOKXCnX0dtJ4z-96">
+        <mxCell id="3H250dNHOKXCnX0dtJ4z-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" parent="1" source="3H250dNHOKXCnX0dtJ4z-2" target="3H250dNHOKXCnX0dtJ4z-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--1" value="university（学校表）" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+          <mxGeometry x="2500" y="690" width="490" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--2" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--1">
+          <mxGeometry y="30" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--3" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--2">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--4" value="university_id character(50)  学校id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=1;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--2">
+          <mxGeometry x="30" width="460" height="30" as="geometry">
+            <mxRectangle width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--5" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--1">
+          <mxGeometry y="60" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--6" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--5">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--7" value="university_name character(40) 学校名称" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--5">
+          <mxGeometry x="30" width="460" height="30" as="geometry">
+            <mxRectangle width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--8" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--1">
+          <mxGeometry y="90" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--9" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--8">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--10" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--8">
+          <mxGeometry x="30" width="460" height="30" as="geometry">
+            <mxRectangle width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--11" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--1">
+          <mxGeometry y="120" width="490" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--12" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--11">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DFfeuusX3hSgYrJd0ve--13" value="Row 3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="DFfeuusX3hSgYrJd0ve--11">
+          <mxGeometry x="30" width="460" height="30" as="geometry">
+            <mxRectangle width="460" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
